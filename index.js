@@ -8,9 +8,9 @@ const port = process.env.PORT || 5000;
 
 app.use(cors({
     origin: [
-        'http://localhost:5173'
-        // 'https://weshop-98979.web.app',
-        // 'https://weshop-98979.firebaseapp.com'
+        // 'http://localhost:5173'
+        'https://contact-management-4c7e5.web.app',
+        'https://contact-management-4c7e5.firebaseapp.com'
     ],
     credentials: true
 }));
